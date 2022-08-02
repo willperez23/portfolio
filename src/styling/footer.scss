@@ -1,0 +1,27 @@
+#footerFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+}
+#leftFooter{
+    margin-left: 5%;
+}
+#rightFooter{
+    margin-right: 5%;
+}
+#footerSpace{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#socials img{
+    padding-right: 8px;
+}
+#socials{
+    margin-bottom: 16px;;
+}
+.footerp{
+    margin-bottom: 16px;
+}

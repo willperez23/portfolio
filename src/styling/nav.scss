@@ -1,0 +1,66 @@
+$rose: #C71D5D; 
+$coal: #2C3032; 
+$cerulean: #007EAB;
+$emerald: #007C41;
+$orange: #F25700; 
+$violet: #522CEB; 
+$snow: #F2F0EA;
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2.5%;
+    text-decoration: none;
+    font-family: "Inter", "system-ui";
+    font-weight: 400;
+    font-size: 24px;
+}
+#links{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    margin-right: 2.5%;
+}
+#links a{
+    color: $coal;
+    font-size: 20px;
+    text-decoration: none;
+}
+.brand{
+    color: $coal;
+    text-decoration: none;
+    margin-left: 2.5%;
+}
+
+#resumeBtn {
+    background-color: $rose;
+    border-radius: 8px;
+    border: none;
+    color: $snow;
+    font-family: "Inter", "system-ui";
+    font-size: 20px;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+.divider{ 
+    justify-content:  center;
+    align-self: center;
+    width: 95%;
+    height: 1px;
+    background-color:$coal ;
+    opacity: 30%;
+    margin:0px;
+}
+#navFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+

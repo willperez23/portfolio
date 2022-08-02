@@ -1,0 +1,67 @@
+$rose: #C71D5D; 
+$coal: #2C3032; 
+$cerulean: #007EAB;
+$emerald: #007C41;
+$orange: #F25700; 
+$violet: #522CEB; 
+$snow: #F2F0EA;
+
+h1{
+    font-size: 80px;
+    color: $rose;
+    font-weight: 600;
+    line-height: 80%;
+    font-family: "Inter", "system-ui";
+}
+#landingFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height:540px;
+    margin-top: 05%;
+}
+#landingText{
+    margin-left: 5%;
+}
+#landingImgFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.horizontalFlex{
+    display: flex;
+    flex-direction: row;
+}
+.verticalFlex{
+    display: flex;
+    flex-direction: column;
+}
+#blkBtn {
+    background-color: $coal;
+    border-radius: 8px;
+    border: none;
+    color: $snow;
+    font-family: "Inter", "system-ui";
+    font-size: 20px;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+#code2Figma{
+    margin: 0px;
+    line-height: 10%;
+}
+#ctas{
+    align-items: center;
+    margin-top: 16px;
+}
+#portfolioLink{
+    color: $coal;
+    font-size: 20px;
+    margin-left: 16px;
+}
+#flatten{
+    margin:0px;
+}
