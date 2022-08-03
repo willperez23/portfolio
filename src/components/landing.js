@@ -23,7 +23,7 @@ const Landing = (props) => {
         </h2>
         <p>Currently seeking full-time product <br /> positions post-graduation in June 2023</p>
 
-        <p id="flatten"> Working to bring products from:   </p>
+        <p id=""> Working to bring products from:   </p>
         <div className="horizontalFlex" id="code2Figma">
           <p>Idea</p>
           <img src={arrow} alt="arrow" />
@@ -32,7 +32,7 @@ const Landing = (props) => {
           <p>Code</p>
         </div>
         <div className="horizontalFlex" id="ctas">
-          <button id="blkBtn" type="button">Hire Me {'\u2705'} </button>
+          <a href="mailto:will.perez2026@gmail.com" id="blkBtn">Hire Me {'\u2705'} </a>
           <NavLink id="portfolioLink" to="/porfolio">Portfolio</NavLink>
         </div>
       </div>

@@ -1,0 +1,58 @@
+$rose: #C71D5D; 
+$coal: #2C3032; 
+$cerulean: #007EAB;
+$emerald: #007C41;
+$orange: #F25700; 
+$violet: #522CEB; 
+$snow: #F2F0EA;
+
+.Blue{
+    color: $cerulean;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.Orange{
+    color: $orange;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.Green{
+    color: $emerald;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.subText{
+    margin-top: 0px;
+}
+#aboutFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:540px;
+    margin-top: 05%;
+}
+#aboutImg{
+    margin-left: 5%;
+}
+.circle{
+    border: 5px solid $rose;
+    border-radius: 50%;
+    width: 155px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    font-size: 48px;
+}
+#tree{
+    width: 165px;
+}
+#door{
+    width: 160px;
+}
+#aboutText{
+    margin-right: 7.5%;
+    margin-top: 16px;
+}

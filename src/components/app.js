@@ -6,12 +6,8 @@ import {
 import Nav from './nav';
 import Landing from './landing';
 import Footer from './footer';
+import About from './about';
 import '../styling/style.scss';
-
-const About = (props) => {
-  console.log('rough');
-  return <div> All there is to know about me </div>;
-};
 
 const App = (props) => {
   return (

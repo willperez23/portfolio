@@ -31,14 +31,7 @@ h1{
     align-items: center;
     justify-items: center;
 }
-.horizontalFlex{
-    display: flex;
-    flex-direction: row;
-}
-.verticalFlex{
-    display: flex;
-    flex-direction: column;
-}
+
 #blkBtn {
     background-color: $coal;
     border-radius: 8px;
@@ -47,6 +40,7 @@ h1{
     font-family: "Inter", "system-ui";
     font-size: 20px;
     padding: 8px 12px;
+    font-weight: 500;
     text-decoration: none;
 }
 #code2Figma{
