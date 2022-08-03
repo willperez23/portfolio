@@ -7,7 +7,7 @@ import '../styling/nav.scss';
 const Nav = (props) => {
   const saveFile = () => {
     saveAs(
-      'src/files/will_perez_resume.pdf',
+      'src/files/perez_william_resume.pdf',
       'will_perez_resume.pdf',
     );
   };
