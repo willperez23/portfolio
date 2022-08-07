@@ -1,7 +1,7 @@
 import React from 'react';
 import mockup from '../img/BetMate Mockups.svg';
 import comepetitor from '../img/betMateCompetitor.svg';
-import '../styling/betMate.scss';
+import '../styling/betmate.scss';
 import blueTarget from '../img/blueTarget.svg';
 import blueChat from '../img/blueChat.svg';
 import blueEye from '../img/blueEye.svg';
