@@ -9,6 +9,7 @@ import Footer from './footer';
 import About from './about';
 import BeepBoop from './beepboop';
 import Portfolio from './portfolio';
+import BetMate from './betmate';
 import '../styling/style.scss';
 
 const App = (props) => {
@@ -22,6 +23,7 @@ const App = (props) => {
           <Route path="/about" component={About} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/beepBoop" component={BeepBoop} />
+          <Route path="/betMate" component={BetMate} />
           {/* <Route path="/projects" component={} />
           <Route path="/casestudy/BetMate" component={BetMate} /> */}
           {/* https://stackoverflow.com/questions/42914666/react-router-external-link */}

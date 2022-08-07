@@ -1,0 +1,39 @@
+$rose: #C71D5D; 
+$coal: #2C3032; 
+$cerulean: #007EAB;
+$emerald: #007C41;
+$orange: #F25700; 
+$violet: #522CEB; 
+$snow: #F2F0EA;
+.odd{
+    width: 100%;
+}
+.blue{
+    background-color: $cerulean;
+    width: 101%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.blue h2 {
+    color: $snow
+}
+.blue p{
+    color: $snow
+}
+.betMateTag{
+    background-color: $cerulean;
+    color:$snow;
+    padding: 05px 10px;
+    border-radius: 6px;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.iconsRow{ 
+    width: 30%
+}
+
+#betMateFlex{
+    display:flex;
+    flex-direction: column;
+    margin-top: 200px;
+}

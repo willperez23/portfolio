@@ -78,7 +78,7 @@ const BeepBoop = (props) => {
 
         </div>
       </div>
-      <div className="left-spacer right btmSpacer">
+      <div className="left right btmSpacer">
         <h3 className="orangeText">Talking to the Instructors</h3>
         <p className="smaller">Kicking off our research stage, the design team conducted
           5 user interviews with drill instructors and the CEO. We
@@ -116,7 +116,7 @@ const BeepBoop = (props) => {
 
       </div>
       <div className="orange btmSpacer">
-        <h2 className="bold left-spacer">HMW create a simple user flow to solidify our main features while also encouraging engagement?</h2>
+        <h2 className="bold left">HMW create a simple user flow to solidify our main features while also encouraging engagement?</h2>
       </div>
       <div className="horizontalFlex btmSpacer">
         <div className="left-spacer">
@@ -166,8 +166,8 @@ const BeepBoop = (props) => {
       </div>
 
       <div className="orange btmSpacer">
-        <h2 className="bold left-spacer">“Everything from scheduling, prep, teaching, and feedback is taken care of”</h2>
-        <p className="left-spacer smaller"> - Drill Instructor</p>
+        <h2 className="bold left">“Everything from scheduling, prep, teaching, and feedback is taken care of”</h2>
+        <p className="left smaller"> - Drill Instructor</p>
       </div>
 
       <div className="horizontalFlex btmSpacer">
