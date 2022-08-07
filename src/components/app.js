@@ -10,6 +10,7 @@ import About from './about';
 import BeepBoop from './beepboop';
 import Portfolio from './portfolio';
 import BetMate from './betmate';
+import Error from './error';
 import '../styling/style.scss';
 
 const App = (props) => {
@@ -34,7 +35,7 @@ const App = (props) => {
             }}
           />
           <Route path="/casestudy/Polaris" component={Polaris} /> */}
-          {/* <Route component={FallBack} /> */}
+          <Route component={Error} />
         </Switch>
         <Footer />
       </div>

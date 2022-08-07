@@ -47,9 +47,10 @@ const Portfolio = (props) => {
           </p>
           <div className="horizontalFlex verticalAlign additionalInfo">
             <p className="description bold">View Case Study </p>
-            <a href="https://fosterfeedfriends.netlify.app/">
+            <NavLink to="/inForest">
               <img src={greenLeft} className="zeroMargin" id="leftArrow" alt="green left arrow" />
-            </a>
+            </NavLink>
+
           </div>
         </div>
         <img className="mockups" src={Inforest} alt="animated will in front of a computer" />
@@ -142,9 +143,9 @@ const Portfolio = (props) => {
           </p>
           <div className="horizontalFlex verticalAlign additionalInfo">
             <p className="description bold">View Case Study </p>
-            <NavLink to="/inForest">
+            <a href="https://fosterfeedfriends.netlify.app/">
               <img src={greenLeft} className="zeroMargin" id="leftArrow" alt="green left arrow" />
-            </NavLink>
+            </a>
           </div>
         </div>
         <img className="mockups" src={FosterFeedFreinds} alt="animated will in front of a computer" />
