@@ -11,7 +11,7 @@ import BeepBoop from './beepboop';
 import Portfolio from './portfolio';
 import BetMate from './betmate';
 import Error from './error';
-import Resume from './resume';
+// import Resume from './resume';
 import '../styling/style.scss';
 
 const App = (props) => {
@@ -26,7 +26,7 @@ const App = (props) => {
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/beepBoop" component={BeepBoop} />
           <Route path="/betMate" component={BetMate} />
-          <Route path="/resume" component={Resume} />
+          {/* <Route path="/resume" component={Resume} /> */}
           {/* <Route path="/projects" component={} />
           <Route path="/casestudy/BetMate" component={BetMate} /> */}
           {/* https://stackoverflow.com/questions/42914666/react-router-external-link */}
