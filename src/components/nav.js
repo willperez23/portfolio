@@ -1,16 +1,17 @@
 import React from 'react';
 // import { connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
-import { saveAs } from 'file-saver';
+// import resume from '../files/perez_william_resume.pdf';
+// import { saveAs } from 'file-saver';
 import '../styling/nav.scss';
 
 const Nav = (props) => {
-  const saveFile = () => {
-    saveAs(
-      'src/files/perez_william_resume.pdf',
-      'will_perez_resume.pdf',
-    );
-  };
+  // const saveFile = () => {
+  //   saveAs(
+  //     'src/files/perez_william_resume.pdf',
+  //     'will_perez_resume.pdf',
+  //   );
+  // };
 
   return (
     <div id="navFlex">
@@ -19,7 +20,8 @@ const Nav = (props) => {
         <span id="links">
           <NavLink to="/about">about</NavLink>
           <NavLink to="/portfolio">portfolio</NavLink>
-          <button id="resumeBtn" type="button" onClick={saveFile}>resume </button>
+          <NavLink to="/resume"><button id="resumeBtn" type="button">resume </button></NavLink>
+
         </span>
       </nav>
       <div className="divider" />
