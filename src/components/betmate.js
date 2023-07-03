@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import mockup from '../img/BetMate Mockups.svg';
 import comepetitor from '../img/betMateCompetitor.svg';
 import '../styling/betmate.scss';
@@ -14,8 +14,12 @@ import hifi from '../img/betMateHifi.svg';
 import finals from '../img/betMateFinals.svg';
 
 const BetMate = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div id="portfolioFlex">
+    <div className="portfolioFlex">
       <div className="horizontalFlex spacebtwn btmSpacer">
         <div className="sectionText left">
           <h1 className="blueText">BetMate</h1>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import mockup from '../img/BeepBoop Mockups.svg';
 import orangePencil from '../img/orangePencil.svg';
 import orangeTarget from '../img/orangeTarget.svg';
@@ -14,8 +14,12 @@ import future from '../img/beepBoopFuture.svg';
 import '../styling/beepboop.scss';
 
 const BeepBoop = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div id="portfolioFlex">
+    <div className="portfolioFlex">
       <div className="horizontalFlex spacebtwn btmSpacer">
         <div className="sectionText left">
           <h1 className="orangeText">BeepBoop</h1>

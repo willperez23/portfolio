@@ -15,7 +15,7 @@ const Landing = (props) => {
         <h2>
           <Typewriter
             options={{
-              strings: ['Product Designer', 'UI/UX Designer', 'Full Stack Web Developer', 'Front End Mobile Developer'],
+              strings: ['Product Designer', 'UI/UX Designer', 'Full Stack Web Developer'],
               autoStart: true,
               loop: true,
             }}

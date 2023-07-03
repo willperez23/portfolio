@@ -1,0 +1,27 @@
+$rose: #C71D5D; 
+$coal: #2C3032; 
+$cerulean: #007EAB;
+$emerald: #007C41;
+$orange: #F25700; 
+$violet: #522CEB; 
+$snow: #F2F0EA;
+
+.inforestTag{
+    background-color: $emerald;
+    color:$snow;
+    padding: 05px 10px;
+    border-radius: 6px;
+    margin-right: 16px; 
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.green{
+    background-color: $emerald;
+    width: 101%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.green h2{
+    color:$snow
+}
