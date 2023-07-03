@@ -10,7 +10,7 @@ const ProjectTitle = (props) => {
     <div className="horizontalFlex spacebtwn btmSpacer">
       {console.log(props)}
       <div className="sectionText left alignTop">
-        <h1 className="greenText">{props.name}</h1>
+        <h1 className={props.color}>{props.name}</h1>
         <h2>Case Study </h2>
         {console.log('made')}
         <div className="eighty">

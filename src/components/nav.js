@@ -16,7 +16,7 @@ const Nav = (props) => {
   return (
     <div id="navFlex">
       <nav>
-        <NavLink to="/" className="brand">will pérez</NavLink>
+        <NavLink to="/" className="brand">william pérez</NavLink>
         <span id="links">
           <NavLink to="/about">about</NavLink>
           <NavLink to="/portfolio">portfolio</NavLink>

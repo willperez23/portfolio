@@ -18,6 +18,7 @@ const inforest = (props) => {
         for their students and instructors, easing
         the teaching process and consolidating all
         of BeepBoop’s user data."
+        color="greenText"
         team={(
           <p>Josh Vorbrich - Designer <br />
             Ardelle - Designer <br />

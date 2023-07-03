@@ -11,7 +11,7 @@ const Footer = (props) => {
       <div className="divider" />
       <div className="horizontalFlex" id="footerSpace">
         <div id="leftFooter">
-          <h2 className="marginFix">will pérez</h2>
+          <h2 className="marginFix">william pérez</h2>
           <div className="horizontalFlex" id="socials">
             <a href="mailto:will.perez2026@gmail.com"><img src={mail} alt="mail icon" /></a>
             <a href="https://www.linkedin.com/in/williamperez23/"><img src={linkedin} alt="linkedin icon" /></a>

@@ -38,7 +38,7 @@ $snow: #F2F0EA;
 .circle{
     border: 5px solid $rose;
     border-radius: 50%;
-    width: 155px;
+    width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -48,11 +48,18 @@ $snow: #F2F0EA;
 }
 #tree{
     width: 165px;
+
 }
 #door{
+    width: 165px;
+}
+#wave{
     width: 165px;
 }
 #aboutText{
     margin-right: 7.5%;
     margin-top: 16px;
+}
+.sideTextBar{
+    max-width: 720px;
 }

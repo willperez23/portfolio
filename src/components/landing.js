@@ -21,18 +21,19 @@ const Landing = (props) => {
             }}
           />
         </h2>
-        <p>Currently seeking full-time product <br /> positions post-graduation in June 2023</p>
+        <p>Incoming Associate Product Designer @MongoDB </p>
 
-        <p id=""> Working to bring products from:   </p>
-        <div className="horizontalFlex" id="code2Figma">
+        <p className="zero"> Working to bring products from:   </p>
+        <div className="zero" id="code2Figma">
           <p>Idea</p>
           <img src={arrow} alt="arrow" />
           <p>Figma</p>
           <img src={arrow} alt="arrow" />
           <p>Code</p>
         </div>
+        <div className="btmSpacer" />
         <div className="horizontalFlex" id="ctas">
-          <a href="mailto:will.perez2026@gmail.com" id="blkBtn">Hire Me {'\u2705'} </a>
+          <a href="mailto:will.perez2026@gmail.com" id="blkBtn">Email Me! &#128231;</a>
           <NavLink id="portfolioLink" to="/porfolio">Portfolio</NavLink>
         </div>
       </div>

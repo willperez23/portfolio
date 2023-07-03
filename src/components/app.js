@@ -10,6 +10,7 @@ import Footer from './footer';
 import About from './about';
 import BeepBoop from './beepboop';
 import Portfolio from './portfolio';
+import Polaris from './polaris';
 import BetMate from './betmate';
 import Error from './error';
 import inforest from './inforest';
@@ -29,6 +30,7 @@ const App = (props) => {
           <Route path="/beepBoop" component={BeepBoop} />
           <Route path="/betMate" component={BetMate} />
           <Route path="/inforest" component={inforest} />
+          <Route path="/polaris" component={Polaris} />
           {/* <Route path="/resume" component={Resume} /> */}
           {/* <Route path="/projects" component={} />
           <Route path="/casestudy/BetMate" component={BetMate} /> */}
@@ -39,7 +41,7 @@ const App = (props) => {
               return null;
             }}
           />
-          <Route path="/casestudy/Polaris" component={Polaris} /> */}
+          */}
           <Route component={Error} />
         </Switch>
         <Footer />

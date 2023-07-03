@@ -168,7 +168,7 @@ const Portfolio = (props) => {
           </p>
           <div className="horizontalFlex verticalAlign additionalInfo">
             <p className="description bold">View Case Study </p>
-            <NavLink to="/betMate">
+            <NavLink to="/polaris">
               <img src={purpleLeft} className="zeroMargin" id="leftArrow" alt="purple left arrow" />
             </NavLink>
           </div>
