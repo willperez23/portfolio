@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import '../styling/inforest.scss';
-import ProjectTitle from './ProjectTitle';
+import ProjectTitle from './projectTitle';
 
 const inforest = (props) => {
   useEffect(() => {
