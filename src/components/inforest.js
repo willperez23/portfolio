@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import '../styling/inforest.scss';
-import ProjectTitle from './projectTitle';
+import Title from './Title';
 
 const inforest = (props) => {
   useEffect(() => {
@@ -8,7 +8,7 @@ const inforest = (props) => {
   }, []);
   return (
     <div className="portfolioFlex">
-      <ProjectTitle
+      <Title
         name="InForest"
         timeline="10 weeks"
         purpose="As a language learning platform, BeepBoop

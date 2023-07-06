@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import '../styling/polaris.scss';
-import ProjectTitle from './ProjectTitle';
+import Title from './Title';
 
 const Polaris = (props) => {
   useEffect(() => {
@@ -8,7 +8,7 @@ const Polaris = (props) => {
   }, []);
   return (
     <div className="portfolioFlex">
-      <ProjectTitle
+      <Title
         name="Polaris"
         timeline="2 weeks"
         purpose="As the final project for COSC 25.01 at Dartmouth, tackling the mental health topic. In the age of Zoom, college

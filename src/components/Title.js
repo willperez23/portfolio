@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-const ProjectTitle = (props) => {
+const Title = (props) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -43,4 +43,4 @@ const ProjectTitle = (props) => {
   );
 };
 
-export default ProjectTitle;
+export default Title;
